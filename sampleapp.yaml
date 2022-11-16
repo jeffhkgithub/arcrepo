@@ -75,7 +75,7 @@ spec:
   selector:
     matchLabels:
       app: yelb-ui
-  replicas: 2
+  replicas: 3
   template:
     metadata:
       labels:
