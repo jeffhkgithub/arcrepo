@@ -6,6 +6,11 @@
 trigger:
 - main
 
+resources: 
+  webhooks: 
+  - webhook: arck8swebhook
+    connection: arck8s
+
 pool:
   vmImage: ubuntu-latest
 
